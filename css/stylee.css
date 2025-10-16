@@ -120,5 +120,41 @@ article footer {
     font-size: 1rem;
     line-height: 1.5;
 }
-
-
+footer {
+    background-color: #697077;
+    color: #fff;
+    padding: 30px 40px;
+}
+footer ul {
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: #697077;
+}
+footer ul li:first-child img {
+    height: 40px;
+    width: auto;
+    background-color: #697077;
+    display: block;
+}
+footer ul li:nth-child(2) {
+    /*flex: 1;*/
+    text-align: center;
+    font-size: 0.7rem;
+    color: #ccc;
+    background-color: #697077;
+    display: block;
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #697077;
+    display: block;
+    padding-left: 20px;
+}
